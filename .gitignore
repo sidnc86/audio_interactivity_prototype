@@ -19,3 +19,5 @@
 *.csv
 #ignore .rvmrc too
 .rvmrc
+#gemfile.lock to be ignored as gemfile creates native machine specific gemfile.lock when `bundle install` is run.
+Gemfile.lock
